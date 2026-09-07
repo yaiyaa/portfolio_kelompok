@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Tajjkia Soraya dan Hafizah Azzahra.">
+    <title>Tajjkia Soraya & Hafizah Azzahra — Team Portfolio</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Tajjkia Soraya dan Hafizah Azzahra, kembali ke atas">TS<span>×</span>HA</a>
+        <nav class="nav-links" aria-label="Navigasi utama"><a href="#work">Karya</a><a href="#services">Keahlian</a><a href="#about">Tentang</a></nav>
+        <a class="header-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="top">
+        <section class="hero section-wrap"><div class="hero-copy reveal"><p class="eyebrow"><span class="status-dot"></span> Portofolio tim · 2024—25</p><h1>Ruang untuk<br><em>berkarya.</em></h1><p class="hero-intro">Kami adalah Tajjkia Soraya dan Hafizah Azzahra. Dua kepala, satu cara untuk membuat karya yang sederhana, hangat, dan berarti.</p><a class="text-link" href="#work">Lihat karya kami <span aria-hidden="true">↓</span></a></div><div class="hero-art reveal reveal-delay" aria-label="Komposisi abstrak bernuansa coklat" role="img"><div class="art-sun"></div><div class="art-arch"></div><div class="art-label">TS<br>× HA</div><div class="art-number">01</div><div class="art-line"></div></div></section>
+        <section class="ticker" aria-label="Keahlian"><div class="ticker-track"><span>Brand identity</span><b>✳</b><span>Digital experience</span><b>✳</b><span>Creative direction</span><b>✳</b><span>Brand identity</span><b>✳</b><span>Digital experience</span><b>✳</b></div></section>
+        <section id="work" class="work section-wrap"><div class="section-heading reveal"><p class="eyebrow">Selected work / 01—04</p><h2>Made to<br><em>matter.</em></h2><p class="section-note">Beberapa kolaborasi yang membentuk cara saya bekerja: mulai dari strategi sampai detail terakhir.</p></div><div class="project-grid"><article class="project project-large reveal"><a class="project-image project-image-1" href="#contact" aria-label="Lihat proyek Nusa Coffee"><span class="project-stamp">NUSA<br>COFFEE</span><span class="project-arrow">↗</span></a><div class="project-meta"><div><h3>Nusa Coffee</h3><p>Brand identity · Packaging</p></div><span>2024</span></div></article><article class="project project-offset reveal reveal-delay"><a class="project-image project-image-2" href="#contact" aria-label="Lihat proyek Reka"><span class="reka-word">REKA</span><span class="project-arrow">↗</span></a><div class="project-meta"><div><h3>Reka</h3><p>Digital product · Art direction</p></div><span>2024</span></div></article><article class="project reveal"><a class="project-image project-image-3" href="#contact" aria-label="Lihat proyek Sora"><span class="sora-word">sora</span><span class="project-arrow">↗</span></a><div class="project-meta"><div><h3>Sora Journal</h3><p>Editorial · Web design</p></div><span>2023</span></div></article><article class="project project-offset reveal reveal-delay"><a class="project-image project-image-4" href="#contact" aria-label="Lihat proyek Tumbuh"><span class="tumbuh-word">TUMBUH<br><small>ruang untuk bertumbuh</small></span><span class="project-arrow">↗</span></a><div class="project-meta"><div><h3>Tumbuh Space</h3><p>Campaign · Social system</p></div><span>2023</span></div></article></div></section>
+        <section id="services" class="services section-wrap"><div class="section-heading"><p class="eyebrow">What I do</p><h2>Small team,<br><em>big thinking.</em></h2></div><div class="service-list"><div class="service-row"><span>01</span><h3>Brand identity</h3><p>Strategi, naming, visual language, dan sistem identitas yang konsisten.</p><b>↗</b></div><div class="service-row"><span>02</span><h3>Digital experience</h3><p>Website dan produk digital yang jelas, hidup, dan menyenangkan digunakan.</p><b>↗</b></div><div class="service-row"><span>03</span><h3>Creative direction</h3><p>Menyatukan ide, gambar, kata, dan tim menuju satu cerita yang kuat.</p><b>↗</b></div></div></section>
+        <section id="about" class="about section-wrap"><div class="about-mark">✳</div><div><p class="eyebrow">Sedikit tentang kami</p><h2>Dua ide,<br>satu <em>cerita.</em></h2><p class="about-copy">Kami percaya karya yang baik lahir dari percakapan yang jujur. Tajjkia membawa ketelitian dan rasa ingin tahu, Hafizah membawa kepekaan dan keberanian. Bersama, kami membangun karya yang terasa dekat.</p><a class="text-link" href="mailto:hello@ts-hastudio.id">Kirim email <span aria-hidden="true">↗</span></a></div></section>
+        <section id="contact" class="contact section-wrap"><p class="eyebrow">Punya ide untuk dikerjakan bersama?</p><h2>Mari buat<br><em>sesuatu yang baik.</em></h2><a class="contact-email" href="mailto:hello@ts-hastudio.id">hello@ts-hastudio.id <span>↗</span></a></section>
+    </main>
+    <footer class="site-footer"><span>© 2024 TS × HA</span><span>Indonesia</span><div><a href="#top">Instagram</a><a href="#top">LinkedIn</a></div></footer>
+</body>
+</html>
